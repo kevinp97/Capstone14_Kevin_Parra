@@ -81,7 +81,7 @@ app.layout = html.Div([
             )
         
         ]),
-    ], style={"columnCount": 4, 'textAlign': "center"}),
+    ], style={"columnCount": 5, 'textAlign': "center"}),
     html.H3('Total Visits by Month', style={"textAlign": "center"}),
     dcc.Graph(
         id='total-visit-line'
